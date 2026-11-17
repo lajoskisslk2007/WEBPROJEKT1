@@ -1,4 +1,5 @@
 import './App.css'
+import TestForm from './components/TestForm'
 import TermekLista from './components/TermekLista'
 import LoginForm from './components/LoginForm'
 import RegForm from './components/RegForm'
@@ -22,6 +23,7 @@ function App() {
           <Route path="/user" element={<UserForm />} />
           <Route path="/multi-form" element={<MultiForm />} />
           <Route path="/admin" element={<AdminPage />} />
+          <Route path="/test" element={<TestForm />} />
         </Routes>
         <Footer />
       </Router>
@@ -30,3 +32,5 @@ function App() {
 }
 
 export default App
+
+
